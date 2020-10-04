@@ -18,20 +18,20 @@ Following are the instructions to get started with the code.
 |__ fairseq/
         |__ models				
             |__ BART
-            	|__ model.py 						Model file
+            |__ model.py                            Model file
         |__ criterions
-            |__ classification.py 					Pre-training Discrminator
-            |__ label_smoothed_cross_entropy.py 	Training main model
+            |__ classification.py                   Pre-training Discrminator
+            |__ label_smoothed_cross_entropy.py     Training main model
         |__ criterions
-            |__ language_pair_dataset.py 			Dataset Processing
-        |__ trainer.py 								Training helper code
-        |__ options.py 								Options and default values
+            |__ language_pair_dataset.py            Dataset Processing
+        |__ trainer.py                              Training helper code
+        |__ options.py                              Options and default values
 
 |__fairseq_cli/
-        |__ train.py 								Main training code
-        |__ generate.py 							Generation code
-|__ preprocess.ph 									Preprocess data
-|__ pipeline.sh 									Training scipt
+        |__ train.py                                Main training code
+        |__ generate.py                             Generation code
+|__ preprocess.ph                                   Preprocess data
+|__ pipeline.sh                                     Training scipt
 ```
 
 ### Build the code
